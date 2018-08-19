@@ -10,17 +10,34 @@ import UIKit
 import Firebase
 import FirebaseMessaging
 import UserNotifications
+import ViewAnimator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var drawerContainer: MMDrawerController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        // Override point for customization after application launch.
+
+        //MMDRAWER calling function
+        buildNavigationDrawerInterface()
         
+   
+        // this sets colour of navigation bar - there was an issue with the colour being lighter than it should but below fixed it. the tintColor is the color of the icons, menu on the nav bar.
+        UINavigationBar.appearance().barTintColor = UIColor.souvlakiBlue
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().isTranslucent = false
+        
+ 
+
+
+        
+ //   addNavBarImage()
+
         //PUSH NOTIFICATION
         registerForPushNotifications()
         return true
@@ -80,6 +97,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 1. Print out error if PNs registration not successful
         print("Failed to register for remote notifications with error: \(error)")
     }
+    
+    //MMDrawer function
+    func buildNavigationDrawerInterface()
+    {
+        
+        //instanciate main.storyboard
+        let mainStoryBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        //create view controllers
+        let mainPage:TabBarViewController = mainStoryBoard.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+        
+        
+        //REMOVE THE 'New' PART OF ALL 3 BELOW AND GET FIRST LEFT SIDE CONTROLLER BACK
+        let leftSideMenu:LeftSideViewControllerNew = mainStoryBoard.instantiateViewController(withIdentifier: "LeftSideViewControllerNew") as! LeftSideViewControllerNew
+        
+
+    
+         //wrap into navigation controller
+        let leftSideMenuNav = UINavigationController(rootViewController: leftSideMenu)
+        
+        //create MMDrawerController
+        drawerContainer = MMDrawerController(center: mainPage, leftDrawerViewController: leftSideMenuNav)
+        
+        drawerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+        drawerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+        
+        //assign MMDrawerController to our windows root viewcontroller
+        window?.rootViewController = drawerContainer
+        window?.makeKeyAndVisible()
+        
+    }
+    
+
 
 
 }

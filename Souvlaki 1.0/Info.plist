@@ -43,6 +43,13 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gibson-Regular.ttf</string>
+		<string>Gibson-BoldItalic.ttf</string>
+		<string>Gibson-RegularItalic.ttf</string>
+		<string>gibson-bold.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

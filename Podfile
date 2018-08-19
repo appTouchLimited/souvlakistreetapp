@@ -22,5 +22,6 @@ pod 'Firebase/RemoteConfig'
 pod 'Firebase/DynamicLinks'
 pod 'Firebase/Messaging'
 pod 'Firebase/Storage'
+pod 'ViewAnimator'
 
 end

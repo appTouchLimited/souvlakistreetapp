@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		5553CC52F416FFA4BC6FECBA /* Pods_Souvlaki_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796DD266C74D02C1A9CAE35 /* Pods_Souvlaki_1_0.framework */; };
 		6835699816BE3E0BE84AC780 /* Pods_Souvlaki_1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5A3A1DD5C0705CFA374108 /* Pods_Souvlaki_1_0Tests.framework */; };
+		731B700920EDF6BC0047BD2D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700120EDF6BB0047BD2D /* MMDrawerVisualState.m */; };
+		731B700A20EDF6BC0047BD2D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700220EDF6BB0047BD2D /* MMDrawerController.m */; };
+		731B700B20EDF6BC0047BD2D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700320EDF6BB0047BD2D /* UIViewController+MMDrawerController.m */; };
+		731B700C20EDF6BC0047BD2D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700520EDF6BB0047BD2D /* MMDrawerBarButtonItem.m */; };
+		731B701120EDFAAF0047BD2D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B701020EDFAAF0047BD2D /* TabBarViewController.swift */; };
+		731B701320EDFF030047BD2D /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B701220EDFF030047BD2D /* LeftSideViewController.swift */; };
 		7328C7B920E9FCF100A99D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328C7B820E9FCF100A99D03 /* AppDelegate.swift */; };
 		7328C7BB20E9FCF100A99D03 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328C7BA20E9FCF100A99D03 /* FirstViewController.swift */; };
 		7328C7C020E9FCF100A99D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7328C7BE20E9FCF100A99D03 /* Main.storyboard */; };
@@ -18,6 +24,19 @@
 		7328C7DB20E9FCF300A99D03 /* Souvlaki_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328C7DA20E9FCF300A99D03 /* Souvlaki_1_0UITests.swift */; };
 		7328C7E920EA01AD00A99D03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7328C7E820EA01AD00A99D03 /* GoogleService-Info.plist */; };
 		7328C7EB20EA0B5100A99D03 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7328C7EA20EA0B5100A99D03 /* RemoteConfigDefaults.plist */; };
+		7347B3D92111961E001A837B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7347B3D82111961E001A837B /* UIColor.swift */; };
+		73D0DD682122B8ED00D6FBB7 /* Gibson-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD632122B8EB00D6FBB7 /* Gibson-Regular.ttf */; };
+		73D0DD692122B8ED00D6FBB7 /* Gibson-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD642122B8EB00D6FBB7 /* Gibson-BoldItalic.ttf */; };
+		73D0DD6A2122B8ED00D6FBB7 /* gibson-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD652122B8EB00D6FBB7 /* gibson-bold.ttf */; };
+		73D0DD6B2122B8ED00D6FBB7 /* sharefonts.net.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD662122B8EB00D6FBB7 /* sharefonts.net.txt */; };
+		73D0DD6C2122B8ED00D6FBB7 /* Gibson-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD672122B8EB00D6FBB7 /* Gibson-RegularItalic.ttf */; };
+		73DCCA0D211973D90052CEC4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCCA0C211973D90052CEC4 /* SecondViewController.swift */; };
+		73DCCA0F211973E80052CEC4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */; };
+		73F09D4D2120394600875AFA /* LeftSideViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D4C2120394600875AFA /* LeftSideViewControllerNew.swift */; };
+		73F09D4F21203C0C00875AFA /* LeftMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D4E21203C0C00875AFA /* LeftMenuTableViewCell.swift */; };
+		73F09D532120474000875AFA /* FollowUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D522120474000875AFA /* FollowUsViewController.swift */; };
+		73F09D56212056F500875AFA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D55212056F500875AFA /* ContactUsViewController.swift */; };
+		73F09D582120570400875AFA /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D572120570300875AFA /* ShareAppViewController.swift */; };
 		F8C47DD631179CAC5CB4AEDE /* Pods_Souvlaki_1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41F48EAE40D6C7A384ECA16 /* Pods_Souvlaki_1_0UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +61,18 @@
 		0796DD266C74D02C1A9CAE35 /* Pods_Souvlaki_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Souvlaki_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B5A2161E137D2860300FB /* Pods-Souvlaki 1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0Tests/Pods-Souvlaki 1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1ACCFC7D4D8695EDF905EE94 /* Pods-Souvlaki 1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0Tests/Pods-Souvlaki 1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		731B6FFF20EDF6BA0047BD2D /* Souvlaki 1.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Souvlaki 1.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		731B700020EDF6BB0047BD2D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		731B700120EDF6BB0047BD2D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		731B700220EDF6BB0047BD2D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		731B700320EDF6BB0047BD2D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		731B700420EDF6BB0047BD2D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		731B700520EDF6BB0047BD2D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		731B700620EDF6BC0047BD2D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		731B700720EDF6BC0047BD2D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		731B700820EDF6BC0047BD2D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		731B701020EDFAAF0047BD2D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		731B701220EDFF030047BD2D /* LeftSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
 		7328C7B520E9FCF100A99D03 /* Souvlaki 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Souvlaki 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7328C7B820E9FCF100A99D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7328C7BA20E9FCF100A99D03 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +89,19 @@
 		7328C7E820EA01AD00A99D03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7328C7EA20EA0B5100A99D03 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		7342886720EAB8D300AB9385 /* Souvlaki 1.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Souvlaki 1.0.entitlements"; sourceTree = "<group>"; };
+		7347B3D82111961E001A837B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		73D0DD632122B8EB00D6FBB7 /* Gibson-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Regular.ttf"; sourceTree = "<group>"; };
+		73D0DD642122B8EB00D6FBB7 /* Gibson-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-BoldItalic.ttf"; sourceTree = "<group>"; };
+		73D0DD652122B8EB00D6FBB7 /* gibson-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-bold.ttf"; sourceTree = "<group>"; };
+		73D0DD662122B8EB00D6FBB7 /* sharefonts.net.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sharefonts.net.txt; sourceTree = "<group>"; };
+		73D0DD672122B8EB00D6FBB7 /* Gibson-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-RegularItalic.ttf"; sourceTree = "<group>"; };
+		73DCCA0C211973D90052CEC4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		73F09D4C2120394600875AFA /* LeftSideViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideViewControllerNew.swift; sourceTree = "<group>"; };
+		73F09D4E21203C0C00875AFA /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
+		73F09D522120474000875AFA /* FollowUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUsViewController.swift; sourceTree = "<group>"; };
+		73F09D55212056F500875AFA /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		73F09D572120570300875AFA /* ShareAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
 		829BB6CB9FEB2BC091A88E69 /* Pods-Souvlaki 1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0UITests/Pods-Souvlaki 1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
 		91905B2FCC5F4E94CFCAC076 /* Pods-Souvlaki 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0/Pods-Souvlaki 1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C03EA8521AFC6DD90B2764 /* Pods-Souvlaki 1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0UITests/Pods-Souvlaki 1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +138,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731B700D20EDF73F0047BD2D /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				731B700620EDF6BC0047BD2D /* MMDrawerBarButtonItem.h */,
+				731B700520EDF6BB0047BD2D /* MMDrawerBarButtonItem.m */,
+				731B700420EDF6BB0047BD2D /* MMDrawerController.h */,
+				731B700220EDF6BB0047BD2D /* MMDrawerController.m */,
+				731B700020EDF6BB0047BD2D /* MMDrawerController+Subclass.h */,
+				731B700720EDF6BC0047BD2D /* MMDrawerVisualState.h */,
+				731B700120EDF6BB0047BD2D /* MMDrawerVisualState.m */,
+				731B700820EDF6BC0047BD2D /* UIViewController+MMDrawerController.h */,
+				731B700320EDF6BB0047BD2D /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawer;
+			sourceTree = "<group>";
+		};
 		7328C7AC20E9FCF100A99D03 = {
 			isa = PBXGroup;
 			children = (
@@ -119,15 +179,21 @@
 		7328C7B720E9FCF100A99D03 /* Souvlaki 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				73D0DD612122B8B600D6FBB7 /* fonts */,
+				73DA31CC211AC9A00097505E /* BottomMenu */,
+				73DA31CB211AC98E0097505E /* SideMenu */,
+				731B6FFF20EDF6BA0047BD2D /* Souvlaki 1.0-Bridging-Header.h */,
+				731B700D20EDF73F0047BD2D /* MMDrawer */,
 				7342886720EAB8D300AB9385 /* Souvlaki 1.0.entitlements */,
 				7328C7B820E9FCF100A99D03 /* AppDelegate.swift */,
-				7328C7BA20E9FCF100A99D03 /* FirstViewController.swift */,
 				7328C7BE20E9FCF100A99D03 /* Main.storyboard */,
 				7328C7C120E9FCF200A99D03 /* Assets.xcassets */,
 				7328C7C320E9FCF200A99D03 /* LaunchScreen.storyboard */,
 				7328C7C620E9FCF200A99D03 /* Info.plist */,
 				7328C7E820EA01AD00A99D03 /* GoogleService-Info.plist */,
 				7328C7EA20EA0B5100A99D03 /* RemoteConfigDefaults.plist */,
+				731B701020EDFAAF0047BD2D /* TabBarViewController.swift */,
+				7347B3D82111961E001A837B /* UIColor.swift */,
 			);
 			path = "Souvlaki 1.0";
 			sourceTree = "<group>";
@@ -148,6 +214,49 @@
 				7328C7DC20E9FCF300A99D03 /* Info.plist */,
 			);
 			path = "Souvlaki 1.0UITests";
+			sourceTree = "<group>";
+		};
+		73D0DD612122B8B600D6FBB7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				73D0DD622122B8EB00D6FBB7 /* gibson */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		73D0DD622122B8EB00D6FBB7 /* gibson */ = {
+			isa = PBXGroup;
+			children = (
+				73D0DD632122B8EB00D6FBB7 /* Gibson-Regular.ttf */,
+				73D0DD642122B8EB00D6FBB7 /* Gibson-BoldItalic.ttf */,
+				73D0DD652122B8EB00D6FBB7 /* gibson-bold.ttf */,
+				73D0DD662122B8EB00D6FBB7 /* sharefonts.net.txt */,
+				73D0DD672122B8EB00D6FBB7 /* Gibson-RegularItalic.ttf */,
+			);
+			path = gibson;
+			sourceTree = "<group>";
+		};
+		73DA31CB211AC98E0097505E /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				731B701220EDFF030047BD2D /* LeftSideViewController.swift */,
+				73F09D4C2120394600875AFA /* LeftSideViewControllerNew.swift */,
+				73F09D4E21203C0C00875AFA /* LeftMenuTableViewCell.swift */,
+				73F09D522120474000875AFA /* FollowUsViewController.swift */,
+				73F09D55212056F500875AFA /* ContactUsViewController.swift */,
+				73F09D572120570300875AFA /* ShareAppViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		73DA31CC211AC9A00097505E /* BottomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7328C7BA20E9FCF100A99D03 /* FirstViewController.swift */,
+				73DCCA0C211973D90052CEC4 /* SecondViewController.swift */,
+				73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */,
+			);
+			path = BottomMenu;
 			sourceTree = "<group>";
 		};
 		74BE8CB693D1B3B938AC05D3 /* Frameworks */ = {
@@ -245,6 +354,7 @@
 				TargetAttributes = {
 					7328C7B420E9FCF100A99D03 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -286,9 +396,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D0DD692122B8ED00D6FBB7 /* Gibson-BoldItalic.ttf in Resources */,
 				7328C7C520E9FCF200A99D03 /* LaunchScreen.storyboard in Resources */,
 				7328C7EB20EA0B5100A99D03 /* RemoteConfigDefaults.plist in Resources */,
+				73D0DD6A2122B8ED00D6FBB7 /* gibson-bold.ttf in Resources */,
 				7328C7E920EA01AD00A99D03 /* GoogleService-Info.plist in Resources */,
+				73D0DD6C2122B8ED00D6FBB7 /* Gibson-RegularItalic.ttf in Resources */,
+				73D0DD682122B8ED00D6FBB7 /* Gibson-Regular.ttf in Resources */,
+				73D0DD6B2122B8ED00D6FBB7 /* sharefonts.net.txt in Resources */,
 				7328C7C220E9FCF200A99D03 /* Assets.xcassets in Resources */,
 				7328C7C020E9FCF100A99D03 /* Main.storyboard in Resources */,
 			);
@@ -339,6 +454,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -346,6 +462,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +513,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731B701120EDFAAF0047BD2D /* TabBarViewController.swift in Sources */,
+				731B700920EDF6BC0047BD2D /* MMDrawerVisualState.m in Sources */,
+				73F09D56212056F500875AFA /* ContactUsViewController.swift in Sources */,
+				73F09D532120474000875AFA /* FollowUsViewController.swift in Sources */,
+				731B700C20EDF6BC0047BD2D /* MMDrawerBarButtonItem.m in Sources */,
 				7328C7B920E9FCF100A99D03 /* AppDelegate.swift in Sources */,
+				7347B3D92111961E001A837B /* UIColor.swift in Sources */,
+				731B700A20EDF6BC0047BD2D /* MMDrawerController.m in Sources */,
+				73F09D4D2120394600875AFA /* LeftSideViewControllerNew.swift in Sources */,
+				73F09D4F21203C0C00875AFA /* LeftMenuTableViewCell.swift in Sources */,
+				73F09D582120570400875AFA /* ShareAppViewController.swift in Sources */,
+				731B700B20EDF6BC0047BD2D /* UIViewController+MMDrawerController.m in Sources */,
+				731B701320EDFF030047BD2D /* LeftSideViewController.swift in Sources */,
+				73DCCA0F211973E80052CEC4 /* ThirdViewController.swift in Sources */,
+				73DCCA0D211973D90052CEC4 /* SecondViewController.swift in Sources */,
 				7328C7BB20E9FCF100A99D03 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -557,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -571,16 +702,20 @@
 			baseConfigurationReference = 91905B2FCC5F4E94CFCAC076 /* Pods-Souvlaki 1.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Souvlaki 1.0/Souvlaki 1.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NR92MRBN6A;
 				INFOPLIST_FILE = "Souvlaki 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.apptouch.Souvlaki-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Souvlaki 1.0/Souvlaki 1.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,16 +726,19 @@
 			baseConfigurationReference = A782A37B5223B74643AE67B7 /* Pods-Souvlaki 1.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Souvlaki 1.0/Souvlaki 1.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NR92MRBN6A;
 				INFOPLIST_FILE = "Souvlaki 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.apptouch.Souvlaki-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Souvlaki 1.0/Souvlaki 1.0-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
