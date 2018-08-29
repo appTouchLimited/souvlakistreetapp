@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5553CC52F416FFA4BC6FECBA /* Pods_Souvlaki_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796DD266C74D02C1A9CAE35 /* Pods_Souvlaki_1_0.framework */; };
 		6835699816BE3E0BE84AC780 /* Pods_Souvlaki_1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5A3A1DD5C0705CFA374108 /* Pods_Souvlaki_1_0Tests.framework */; };
+		7302964421367A5900B38218 /* TabBarViewControllerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7302964321367A5900B38218 /* TabBarViewControllerSide.swift */; };
 		731B700920EDF6BC0047BD2D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700120EDF6BB0047BD2D /* MMDrawerVisualState.m */; };
 		731B700A20EDF6BC0047BD2D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700220EDF6BB0047BD2D /* MMDrawerController.m */; };
 		731B700B20EDF6BC0047BD2D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731B700320EDF6BB0047BD2D /* UIViewController+MMDrawerController.m */; };
@@ -30,6 +31,8 @@
 		73D0DD6A2122B8ED00D6FBB7 /* gibson-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD652122B8EB00D6FBB7 /* gibson-bold.ttf */; };
 		73D0DD6B2122B8ED00D6FBB7 /* sharefonts.net.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD662122B8EB00D6FBB7 /* sharefonts.net.txt */; };
 		73D0DD6C2122B8ED00D6FBB7 /* Gibson-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D0DD672122B8EB00D6FBB7 /* Gibson-RegularItalic.ttf */; };
+		73D24A9A212C71DC00201D8E /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D24A99212C71DC00201D8E /* MarketTableViewCell.swift */; };
+		73D24A9C212C73BE00201D8E /* market.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73D24A9B212C73BE00201D8E /* market.jpg */; };
 		73DCCA0D211973D90052CEC4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCCA0C211973D90052CEC4 /* SecondViewController.swift */; };
 		73DCCA0F211973E80052CEC4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */; };
 		73F09D4D2120394600875AFA /* LeftSideViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F09D4C2120394600875AFA /* LeftSideViewControllerNew.swift */; };
@@ -61,6 +64,7 @@
 		0796DD266C74D02C1A9CAE35 /* Pods_Souvlaki_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Souvlaki_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B5A2161E137D2860300FB /* Pods-Souvlaki 1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0Tests/Pods-Souvlaki 1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1ACCFC7D4D8695EDF905EE94 /* Pods-Souvlaki 1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Souvlaki 1.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Souvlaki 1.0Tests/Pods-Souvlaki 1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7302964321367A5900B38218 /* TabBarViewControllerSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewControllerSide.swift; sourceTree = "<group>"; };
 		731B6FFF20EDF6BA0047BD2D /* Souvlaki 1.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Souvlaki 1.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		731B700020EDF6BB0047BD2D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
 		731B700120EDF6BB0047BD2D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 		73D0DD652122B8EB00D6FBB7 /* gibson-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-bold.ttf"; sourceTree = "<group>"; };
 		73D0DD662122B8EB00D6FBB7 /* sharefonts.net.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sharefonts.net.txt; sourceTree = "<group>"; };
 		73D0DD672122B8EB00D6FBB7 /* Gibson-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-RegularItalic.ttf"; sourceTree = "<group>"; };
+		73D24A99212C71DC00201D8E /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
+		73D24A9B212C73BE00201D8E /* market.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = market.jpg; sourceTree = "<group>"; };
 		73DCCA0C211973D90052CEC4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		73F09D4C2120394600875AFA /* LeftSideViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideViewControllerNew.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 		7328C7B720E9FCF100A99D03 /* Souvlaki 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				73D24A9B212C73BE00201D8E /* market.jpg */,
 				73D0DD612122B8B600D6FBB7 /* fonts */,
 				73DA31CC211AC9A00097505E /* BottomMenu */,
 				73DA31CB211AC98E0097505E /* SideMenu */,
@@ -194,6 +201,7 @@
 				7328C7EA20EA0B5100A99D03 /* RemoteConfigDefaults.plist */,
 				731B701020EDFAAF0047BD2D /* TabBarViewController.swift */,
 				7347B3D82111961E001A837B /* UIColor.swift */,
+				7302964321367A5900B38218 /* TabBarViewControllerSide.swift */,
 			);
 			path = "Souvlaki 1.0";
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 				7328C7BA20E9FCF100A99D03 /* FirstViewController.swift */,
 				73DCCA0C211973D90052CEC4 /* SecondViewController.swift */,
 				73DCCA0E211973E80052CEC4 /* ThirdViewController.swift */,
+				73D24A99212C71DC00201D8E /* MarketTableViewCell.swift */,
 			);
 			path = BottomMenu;
 			sourceTree = "<group>";
@@ -402,6 +411,7 @@
 				73D0DD6A2122B8ED00D6FBB7 /* gibson-bold.ttf in Resources */,
 				7328C7E920EA01AD00A99D03 /* GoogleService-Info.plist in Resources */,
 				73D0DD6C2122B8ED00D6FBB7 /* Gibson-RegularItalic.ttf in Resources */,
+				73D24A9C212C73BE00201D8E /* market.jpg in Resources */,
 				73D0DD682122B8ED00D6FBB7 /* Gibson-Regular.ttf in Resources */,
 				73D0DD6B2122B8ED00D6FBB7 /* sharefonts.net.txt in Resources */,
 				7328C7C220E9FCF200A99D03 /* Assets.xcassets in Resources */,
@@ -518,6 +528,7 @@
 				73F09D56212056F500875AFA /* ContactUsViewController.swift in Sources */,
 				73F09D532120474000875AFA /* FollowUsViewController.swift in Sources */,
 				731B700C20EDF6BC0047BD2D /* MMDrawerBarButtonItem.m in Sources */,
+				7302964421367A5900B38218 /* TabBarViewControllerSide.swift in Sources */,
 				7328C7B920E9FCF100A99D03 /* AppDelegate.swift in Sources */,
 				7347B3D92111961E001A837B /* UIColor.swift in Sources */,
 				731B700A20EDF6BC0047BD2D /* MMDrawerController.m in Sources */,
@@ -529,6 +540,7 @@
 				73DCCA0F211973E80052CEC4 /* ThirdViewController.swift in Sources */,
 				73DCCA0D211973D90052CEC4 /* SecondViewController.swift in Sources */,
 				7328C7BB20E9FCF100A99D03 /* FirstViewController.swift in Sources */,
+				73D24A9A212C71DC00201D8E /* MarketTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

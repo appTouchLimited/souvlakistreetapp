@@ -82,17 +82,27 @@ class LeftSideViewControllerNew: UIViewController, UITableViewDataSource, UITabl
             appDelegate.drawerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
             
         case 3:
-
-   
-            
-            var centerViewController = self.storyboard?.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+            var centerViewController = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
             var centerNavController = UINavigationController(rootViewController: centerViewController)
             var appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
-
+    
             appDelegate.drawerContainer!.centerViewController = centerNavController
             appDelegate.drawerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
-        default:
-            print("\(menuItems[indexPath.row]) is selected");
+
+            
+
+//            var centerViewController = self.storyboard?.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+//            var centerNavController = UINavigationController(rootViewController: centerViewController)
+//            var appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+//
+//            appDelegate.drawerContainer!.centerViewController = centerNavController
+//            appDelegate.drawerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
+            
+            
+            default:
+                print("\(menuItems[indexPath.row]) is selected");
+            
+            
         }
         
     }

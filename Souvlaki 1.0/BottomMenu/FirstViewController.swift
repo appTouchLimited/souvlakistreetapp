@@ -11,7 +11,31 @@ import Firebase
 import FirebaseMessaging
 import ViewAnimator
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    
+    let marketImages = ["market", "market", "market"]
+    let marketNames = ["Borough Market London", "Main Street Market", "Covent Garden Market"]
+    let marketDates = ["Monday 24th Sept", "Tuesday 15th Oct", "Friday 11th Nov"]
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return (marketImages.count)
+    }
+    
+
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MarketTableViewCell
+        
+        cell.MarketImage.image = UIImage(named: (marketImages[indexPath.row] + ".jpg"))
+        cell.MarketName.text = marketNames[indexPath.row]
+        cell.MarketDate.text = marketDates[indexPath.row]
+        
+        return (cell)
+    }
+
     
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
         
@@ -170,6 +194,7 @@ class FirstViewController: UIViewController {
 //    }
     
    
+    
 
 }
 
